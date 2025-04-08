@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: blue;
+    color: white;
+    width: 250px;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+}
